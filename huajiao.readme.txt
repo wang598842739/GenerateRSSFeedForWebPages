@@ -1,0 +1,7 @@
+1. 执行huajiao.py 会生成rss
+2. 拷贝生成的内容到huajiao.rss
+3. 或者加入crontab,自动化第2步骤
+    0 * * * * python /home/pi/LNProject.Python/GenerateRSSFeedForWebPages/huajiao.py >> /home/pi/LNProject.Python/GenerateRSSFeedForWebPages/huajiao.rss
+
+4. 打开feeddemon, File->New Subscription...->指向生成的huajiao.rss
+5. 这样每次rss文件有更新，feeddemon会定期识别出更新。
