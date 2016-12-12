@@ -1,1 +1,1 @@
-# GenerateRSSFeedForWebPages
+# GenerateRSSFeedForWebPages without rss feed.
