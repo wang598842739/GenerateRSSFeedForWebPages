@@ -1,6 +1,6 @@
 #!/usr/bin/python
-
-import re, urllib
+import re
+import urllib
 import rss
 
 c = urllib.urlopen("http://www.huajiao.com/category/1000").read().decode('utf8')
